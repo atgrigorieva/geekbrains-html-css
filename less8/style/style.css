@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    width: 1366px;
+    /*width: 1366px;*/
 }
 
 a:hover {
@@ -23,8 +23,8 @@ a:hover {
 .header {
     background: url(../img/slider-img.jpg) no-repeat;
     /* height: 200px; */
-    /* background-size: 100%;
-     height: 800px;*/
+    background-size: 100%;
+    /*height: 800px;*/
 }
 
 .menuLogo {
@@ -259,12 +259,17 @@ div#explore_all {
 }
 
 .block_chear {
-    padding: 120px 0 10px;
+    padding: 110px 0 calc(100%/2);
 }
 
 .block_chear div {
     float: left;
     position: relative;
+    width: calc(100%/2);
+}
+
+.block_chear div img {
+    width: 100%;
 }
 
 #promo {
@@ -333,4 +338,129 @@ div#explore_all {
 
 #promo a:hover {
     background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
+}
+
+.section_trending {
+    padding: 120px 107px 96px;
+}
+
+.section_trending p {
+    float: left;
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.section_trending a {
+    float: right;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section_trending a:hover {
+    border-bottom: 3px solid black;
+}
+
+.trending_products_all {
+    padding: 0 107px 80px;
+    width: 100%;
+}
+
+.trending_products_all div:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.hot_deal {
+    /*padding: 70px 0 0;*/
+    position: relative;
+}
+
+.hot_deal img {
+    width: 100%;
+}
+
+#hot_deal_slider {
+    display: inline-block;
+    position: absolute;
+    /* top: 287px; */
+    /* height: 36px; */
+    z-index: 2;
+    top: 0;
+        padding: 287px 52px 10px;
+    width: calc(100% - 52px - 782px);
+}
+
+#hot_deal_slider h3 {
+    color: #e53935;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    ;
+    text-transform: uppercase;
+}
+
+#hot_deal_slider h2 {
+    color: #212121;
+    font-size: 62px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px;
+    /* Приближение из-за подстановки шрифтов */
+    text-transform: uppercase;
+}
+
+#hot_deal_slider p {
+    color: #6c6c6c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    margin-top: 34px;
+}
+
+#hot_deal_slider a {
+    display: block;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 45px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 22px;
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+
+#hot_deal_slider a:hover {
+    background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
+}
+
+.product_section {
+    padding: 0 107px;
+}
+.product_big {
+    float: left;
+}
+.product_big img {
+    width: 100%;
+}
+.product_row {
+    float: right;
+    /* padding: 0 0 0 120px; */
 }
