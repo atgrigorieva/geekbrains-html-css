@@ -393,7 +393,7 @@ div#explore_all {
     /* height: 36px; */
     z-index: 2;
     top: 0;
-        padding: 287px 52px 10px;
+    padding: 287px 52px 10px;
     width: calc(100% - 52px - 782px);
 }
 
@@ -452,15 +452,211 @@ div#explore_all {
 }
 
 .product_section {
-    padding: 0 107px;
+    padding: 0 107px calc(100%/12);
 }
+
 .product_big {
     float: left;
 }
+
 .product_big img {
     width: 100%;
 }
+
 .product_row {
-    float: right;
+    /* float: right; */
     /* padding: 0 0 0 120px; */
+}
+
+.exclusive_product1 {
+    /* position: relative; */
+    /* left: calc(100%/2 - 143px); */
+    /* display: inline-block; */
+    /* margin-right: calc(100%/2 - 143px); */
+}
+
+
+.mobile_app {
+    background: url(../img/back-img.png) no-repeat;
+    position: relative;
+    background-size: 100%;
+    /* min-height: 100%; */
+    padding: calc(100%/3) 0 0;
+}
+
+#mobile_app {
+    position: absolute;
+    top: 0;
+    padding: 79px 107px;
+    /*display: inline-block;*/
+    /* margin-left: 99px; */
+}
+
+#mobile_app h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+
+
+    text-transform: uppercase;
+}
+
+#mobile_app h2 {
+    color: #212121;
+    font-size: 62px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    line-height: 72px;
+
+    /* margin-bottom: 26px; */
+    text-transform: uppercase;
+    width: calc(100% - 20px);
+}
+
+#mobile_app p {
+    color: #6c6c6c;
+    font-size: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    margin-top: 26px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+#mobile_app a {
+    display: inline-block;
+    margin-top: 32px;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 174px 0;
+}
+
+
+
+
+#footer {
+
+
+    padding: 0 107px;
+    color: #6c6c6c;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.footer_first {
+    /*margin-left: 99px;
+        height: 86px;*/
+    /* max-width: 90%; */
+}
+
+#footer:nth-child(1) {}
+
+#footer ul {
+
+    text-transform: uppercase;
+}
+
+#footer ul:first-child {}
+
+#footer ul:last-child {}
+
+#footer ul li {
+    list-style: none;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+#footer ul li a:hover {
+    border-bottom: 3px solid black;
+}
+
+#footer:last-child {
+
+    /* margin-right: 98px;*/
+}
+
+.footer_last {}
+
+#footer p {
+
+    color: #212121;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+#footer input[type="email"] {
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background: #ffffff;
+    width: 368px;
+    height: 46px;
+    margin-top: 26px;
+
+    color: #6c6c6c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    padding-left: 19px;
+}
+
+.footer_last p {
+    display: inline-block;
+    /*margin-top: 77px;*/
+}
+
+.footer_last p:nth-child(1) {
+    /* margin-left: 98px; */
+    color: #6c6c6c;
+    font-size: 12px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+}
+
+.footer_last p:nth-child(2) {
+
+    color: #6c6c6c;
+    font-size: 28px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+
+.footer_last p:last-child {
+
+
+    /* margin-left: 172px; */
+    \ color: #6c6c6c;
+    font-size: 12px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 26px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: right;
 }
