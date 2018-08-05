@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /*width: 1366px;*/
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+.header {
+    padding: 15px 0px;
+}
+
+.menu_product {
+    background-color: #f5f5f5;
+    padding: 15px 0px;
+}
+
+.menu_product ul li {
+    float: left;
+    list-style: none;
+}
+
+.menu_product ul li a {
+    text-decoration: none;
+    display: inline-block;
+
+    padding: 0 18px;
+    color: #6c6c6c;
+    font-size: 17.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.menu_product ul li a:hover,
+.menu_product ul li a:active {
+    color: #212121;
+    font-size: 17.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.menu_product ul {
+    margin: 0 auto 0 auto;
+    width: 647px;
+    height: 19px;
+}
+
+.header_ {
+    margin: 0 auto 0 auto;
+    max-width: 1170px;
+    /*     position: relative;
+    top: 63px; */
+    /* height: calc(100%/2); */
+    /* bottom: 44px; */
+    /* height: 79%; */
+}
+
+.top_header {
+    height: 27px;
+    width: 100%
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+    position: relative;
+}
+
+
+.menu li {
+    float: left;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.menu li a:last-child {
+    /* margin-right: 20px; */
+}
+
+.menu a img {
+    position: relative;
+    /* top: 10px; */
+}
+
+.menu li a {
+    font-family: Montserrat;
+    color: #8c8c8c;
+    font-size: 14px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+}
+
+
+.menu li a:hover,
+.menu li a:active {
+    border-bottom: 3px solid black;
+}
+
+.clear_float {
+    clear: both;
+}
+
+.header_h1 {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 62px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 100;
+    position: absolute;
+    bottom: 44px;
+}
+
+.section {
+    margin: 71px auto 122px auto;
+    max-width: 1170px;
+    overflow: auto
+}
+
+.section:first-child div:first-child div {
+    margin: 0 auto;
+    width: 210px;
+}
+
+.section:first-child div:first-child div img {
+    float: left;
+}
+
+.section:first-child div:first-child img {
+    display: block;
+    margin: 0 auto;
+}
+
+.section:first-child>div {
+    float: left;
+}
+
+.section:first-child>div:nth-child(2) h1 {
+    color: #212121;
+    font-size: 35.98px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: center;
+}
+
+.section:first-child>div:nth-child(2) h2 {
+    color: #e53935;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 23px;
+}
+
+.section:first-child>div:nth-child(2) p {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 48px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 36px;
+}
+
+.section:first-child>div:nth-child(2) div {
+    margin-top: 49px;
+}
+
+.section:first-child>div:nth-child(2) div p {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+#promo a {
+    display: block;
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+
+    color: #ffffff;
+    font-size: 21.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 22px;
+
+    text-transform: uppercase;
+    width: 510px;
+    /* height: 71px; */
+    padding: 16px;
+    margin-top: 31px;
+}
+
+#promo a:hover {
+    background: #f44336 url(../img/arrow-product.png) no-repeat 334px 16px;
+}
+
+.section_trending {
+    padding: 120px 0 96px;
+}
+
+.section_trending p {
+    float: left;
+    color: #212121;
+    font-size: 36px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+
+.section_trending a {
+    float: right;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.section_trending a:hover {
+    border-bottom: 3px solid black;
+}
+
+.trending_products_all {
+    padding: 0 0 80px;
+    width: 100%;
+}
+
+.trending_products_all div:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+
